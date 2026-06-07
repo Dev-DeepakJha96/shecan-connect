@@ -1,7 +1,7 @@
 const asyncHandler = require('../utils/asyncHandler');
 const jwt = require('jsonwebtoken');
 const config = require('../config');
-const Admin = require('../models/Admin');
+const Admin = require('../models/admin');
 const Volunteer = require('../models/Volunteer');
 
 // Generate JWT Token

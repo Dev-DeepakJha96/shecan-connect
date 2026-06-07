@@ -1,7 +1,7 @@
 const dotenv = require('dotenv').config();
 const config = require('../config');
 const connectDB = require('../config/database');
-const Admin = require('../models/Admin');
+const Admin = require('../models/admin');
 const ImpactMetrics = require('../models/ImpactMetrics');
 
 const defaultMetrics = [
